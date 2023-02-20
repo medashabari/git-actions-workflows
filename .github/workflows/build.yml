@@ -1,6 +1,6 @@
 on : push
-jobs :
-  first-job :
+jobs:
+  first-job:
     runs-on : windows-latest
     steps:
-     -run : python --version
+     - run: python --version
