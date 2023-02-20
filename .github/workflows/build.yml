@@ -9,4 +9,4 @@ jobs:
      - run: python --version
        name: Check python version
      - run: python main.py
-       name Run main.py
+       name: Run main.py
