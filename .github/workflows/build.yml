@@ -1,6 +1,7 @@
 on : push
 jobs:
   first-job:
-    runs-on : windows-latest
+    runs-on : ubuntu-latest
+    container: python:3.8.10
     steps:
      - run: python --version
