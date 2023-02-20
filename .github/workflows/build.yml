@@ -8,5 +8,7 @@ jobs:
     steps:
      - run: python --version
        name: Check python version
+     - uses: actions/checkout@v3
+       name: Check outcode
      - run: python main.py
        name: Run main.py
