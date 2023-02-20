@@ -1,7 +1,10 @@
+name: Python continuous Integration
 on : push
 jobs:
+  build-python:
   first-job:
     runs-on : ubuntu-latest
     container: python:3.8.10
     steps:
      - run: python --version
+     - run: python main.py
