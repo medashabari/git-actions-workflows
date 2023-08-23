@@ -1,5 +1,10 @@
 name: Python continuous Integration
-on : push
+on : 
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'README.md'
 jobs:
   python-job:
     name: python job
